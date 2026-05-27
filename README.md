@@ -1,5 +1,7 @@
 Repositório criado para documentar alguns comandos básicos do Docker.
-Aluno: Julio Cesar Martins
+Aluno: Julio Cesar Martins (11261102699)
+Curso: Sistemas de informação
+
 
 # Comandos Docker
 
