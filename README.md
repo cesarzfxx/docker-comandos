@@ -1,3 +1,6 @@
+Repositório criado para documentar alguns comandos básicos do Docker.
+Aluno: Julio Cesar Martins
+
 # Comandos Docker
 
 ## docker --version
