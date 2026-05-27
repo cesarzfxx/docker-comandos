@@ -1,51 +1,89 @@
-# 10 Comandos Docker
+# Comandos Docker
 
-## 1. Verificar versão do Docker
+## docker --version
+Mostra a versão instalada do Docker.
+
 ```bash
 docker --version
 ```
 
-## 2. Baixar uma imagem
+---
+
+## docker pull
+Baixa uma imagem do Docker Hub.
+
 ```bash
 docker pull ubuntu
 ```
 
-## 3. Listar imagens
+---
+
+## docker images
+Lista as imagens instaladas.
+
 ```bash
 docker images
 ```
 
-## 4. Criar e iniciar um container
+---
+
+## docker run
+Executa um container.
+
 ```bash
 docker run ubuntu
 ```
 
-## 5. Executar container em modo interativo
+---
+
+## docker run -it
+Abre o terminal do container.
+
 ```bash
 docker run -it ubuntu bash
 ```
 
-## 6. Listar containers ativos
+---
+
+## docker ps
+Mostra containers ativos.
+
 ```bash
 docker ps
 ```
 
-## 7. Listar todos os containers
+---
+
+## docker ps -a
+Mostra todos os containers.
+
 ```bash
 docker ps -a
 ```
 
-## 8. Parar um container
+---
+
+## docker stop
+Para um container.
+
 ```bash
-docker stop ID_DO_CONTAINER
+docker stop ID
 ```
 
-## 9. Remover um container
+---
+
+## docker rm
+Remove um container.
+
 ```bash
-docker rm ID_DO_CONTAINER
+docker rm ID
 ```
 
-## 10. Remover uma imagem
+---
+
+## docker rmi
+Remove uma imagem.
+
 ```bash
 docker rmi ubuntu
 ```
